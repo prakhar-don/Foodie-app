@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/> } />
+        <Route path="/Foodie-app" element={<Home/> } />
         <Route path= "/success" element={<ProtectedRoute element={<Success/>}/>} />
         <Route path="/*" element= {<Error/>} />
       </Routes>
